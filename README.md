@@ -1,2 +1,19 @@
-# ppwg-generator
+# Generator PPWG
+
 Prosty generator druku `Polecenie przelewu / wpłata gotówkowa` dla Windows.
+
+## Uruchomienie
+
+1. Otwórz plik `ppwg_generator.html` dwuklikiem.
+2. Wpisz dane przelewu w duże pola formularza.
+3. Kliknij `GENERUJ DRUK`.
+4. W oknie drukowania wybierz drukarkę albo `Microsoft Print to PDF`.
+
+Program generuje dwie identyczne kopie PPWG na jednej stronie A4. Dane są zapamiętywane lokalnie w przeglądarce, żeby przy kolejnym uruchomieniu nie wpisywać wszystkiego od nowa.
+
+Rozmiar blankietu odpowiada drukom dostępnym na poczcie tzn. około 150 × 105 mm.
+
+## Pliki
+
+- `ppwg_generator.html` - główna aplikacja.
+- `URUCHOM_PPWG.bat` - skrót uruchamiający aplikację w domyślnej przeglądarce Windows.
